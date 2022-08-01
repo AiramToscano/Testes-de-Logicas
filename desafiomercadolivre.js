@@ -18,9 +18,11 @@ for(let min = 1000; min <= max ; min ++) {
      }
 }
 if(array.length > 0) {
-const stringArrat = array[0].join('')
-const stringArrat2 = array[1].join('')
-console.log(`${stringArrat}, ${stringArrat2}`)
+array.forEach((e) => {
+   console.log(e.join(''));
+})
+// const stringArrat2 = array[1].join('')
+// console.log(`${stringArrat}, ${stringArrat2}`)
 }
 
 if(array.length <= 0) {
