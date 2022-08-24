@@ -1,4 +1,4 @@
-let vet = [1,1,2,2,2,5,6,6,6,6,6]
+let vet = [1,1,2,2,2,5,4,4]
 
  function migratoryBirds(arr) {
     let largest = 1;
