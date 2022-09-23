@@ -1,7 +1,6 @@
 function pageCount(n, p) {
     let cont1dif =  (p - 1) / 2
     let cont2dif = (n - p) / 2
-    console.log(cont1dif, cont2dif)
     if(cont1dif % 2 ==0 ) {
         let real = Math.ceil(cont2dif)
         let real2 = Math.ceil(cont1dif)
