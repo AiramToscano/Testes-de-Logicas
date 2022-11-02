@@ -9,3 +9,6 @@ def angryProfessor(k, a):
 
 vet = [-1,-3,5,2]
 print(angryProfessor(3,vet))
+
+
+print(type(1.5))
