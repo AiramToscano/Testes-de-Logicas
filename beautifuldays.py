@@ -1,5 +1,4 @@
 def beautifulDays(i, j, k):
-    lista = []
     cont= 0
     for num in range(i,j+1):
         numero = str(num)
